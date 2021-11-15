@@ -15,14 +15,18 @@ export default function PinsNavigator() {
           name="Map"
           component={MapScreen}
           options={{
-            tabBarIcon: () => <Ionicons name="map-outline" size={25} />,
+            tabBarIcon: (tabInfo) => (
+              <Ionicons name="map-outline" size={25} color={tabInfo.color} />
+            ),
           }}
         />
         <Tab.Screen
           name="Pins"
           component={PinsScreen}
           options={{
-            tabBarIcon: () => <Ionicons name="pin-outline" size={25} />,
+            tabBarIcon: (tabInfo) => (
+              <Ionicons name="pin-outline" size={25} color={tabInfo.color} />
+            ),
           }}
         />
       </Tab.Navigator>
