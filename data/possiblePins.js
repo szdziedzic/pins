@@ -8,7 +8,7 @@ export const POSSIBLE_PINS = [
     },
   },
   {
-    title: 'JU Faculty of Mathematics and Computer Science',
+    title: 'Jagiellonian University',
     description: 'Lojasiewicza 6',
     coordinate: {
       latitude: 50.03008229533105,

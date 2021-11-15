@@ -5,7 +5,7 @@ import { useState } from 'react/cjs/react.development';
 import { useSelector } from 'react-redux';
 import { POSSIBLE_PINS } from '../data/possiblePins';
 
-export default function MapScreen({ navigation }) {
+export default function MapScreen() {
   const selectedPins = useSelector((state) => state.pins.selectedPins);
 
   const [region, setRegion] = useState({

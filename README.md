@@ -1,5 +1,5 @@
 <h1>pins</h1>
-Simple React Native map app which allows user to pin some interesting Krakow locations
+Simple React Native map app built using Expo which allows user to pin some interesting Krakow locations
 
 <h2>How does it work?</h2>
 <h3>1. Select which locations you want to pin</h3>

@@ -4,12 +4,12 @@ import { POSSIBLE_PINS } from '../data/possiblePins';
 import { useDispatch, useSelector } from 'react-redux';
 import { togglePin } from '../store/actions/pins';
 
-export default function PinsScreen({ route }) {
+export default function PinsScreen() {
   const selectedPins = useSelector((state) => state.pins.selectedPins);
   const dispatch = useDispatch();
 
   const renderPinSelectors = () => {
-    return POSSIBLE_PINS.map((pin, ind) => {
+    return POSSIBLE_PINS.map((pin) => {
       return (
         <View key={pin.title} style={styles.pin}>
           <Text>{pin.title}</Text>
